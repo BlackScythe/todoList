@@ -11,11 +11,11 @@ public class TodoItem {
     public long id;
 
     @Column(name= "TODO")
-    @JsonProperty("Todo")
+    @JsonProperty("todo")
     public String todo;
 
     @Column(name= "STATUS", nullable = false)
-    @JsonProperty("Status")
+    @JsonProperty("status")
     public Boolean status;
 
     public TodoItem() {

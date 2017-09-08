@@ -7,4 +7,6 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public interface TodoRepository extends CrudRepository<TodoItem, Long> {
     public Iterable<TodoItem> findByStatus(Boolean status);
+
+    public Iterable<TodoItem> findByTodo(String todo);
 }

@@ -2,21 +2,27 @@ package io.finalprj.todolist.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Column;
+
 
 @Entity
 public class TodoItem {
     @Id
-    @GeneratedValue(strategy  = GenerationType.AUTO)
-    public long id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 
-    @Column(name= "TODO")
+    @Column(name = "TODO")
     @JsonProperty("todo")
-    public String todo;
+    private String todo;
 
-    @Column(name= "STATUS", nullable = false)
+    @Column(name = "STATUS", nullable = false)
+
     @JsonProperty("status")
-    public Boolean status;
+    private Boolean status;
 
     public TodoItem() {
     }
@@ -40,5 +46,13 @@ public class TodoItem {
 
     public void setToDo(String todo) {
         this.todo = todo;
+    }
+
+    public Boolean getStatus() {
+        return status;
+    }
+
+    public void setStatus(Boolean status) {
+        this.status = status;
     }
 }

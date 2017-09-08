@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,7 +24,7 @@ public class ServiceExceptionHandler extends ResponseEntityExceptionHandler {
     private static String exception = "exception";
 
     @ExceptionHandler(value = EmptyResultDataAccessException.class)
-    protected  ResponseEntity<Object> emptyResultDataAccessException (RuntimeException ex, WebRequest request) {
+    protected ResponseEntity<Object> emptyResultDataAccessException(RuntimeException ex, WebRequest request) {
         log.error("No item found!");
         Map<String, String> responseBody = new HashMap<>();
         responseBody.put(message, "No item found!");
@@ -34,7 +35,7 @@ public class ServiceExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
     @ExceptionHandler(value = DataIntegrityViolationException.class)
-    protected  ResponseEntity<Object> dataIntegrityViolationException (RuntimeException ex, WebRequest request) {
+    protected ResponseEntity<Object> dataIntegrityViolationException(RuntimeException ex, WebRequest request) {
         log.error("1 or more values are missing or the incorrect type.");
         Map<String, String> responseBody = new HashMap<>();
         responseBody.put(message, "1 or more values are missing or are the incorrect type.");
@@ -45,7 +46,7 @@ public class ServiceExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
     @ExceptionHandler(value = Exception.class)
-    protected  ResponseEntity<Object> exception (RuntimeException ex, WebRequest request) {
+    protected ResponseEntity<Object> exception(RuntimeException ex, WebRequest request) {
         log.error("1 or more values are missing or the incorrect type.");
         Map<String, String> responseBody = new HashMap<>();
         responseBody.put(message, "Not sure what went wrong here.");

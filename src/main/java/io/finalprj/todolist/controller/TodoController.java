@@ -5,7 +5,6 @@ import io.finalprj.todolist.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Optional;
 
@@ -25,10 +24,10 @@ public class TodoController {
         if (id.isPresent()) {
             return Arrays.asList(todoService.getTodo(id.get()));
         }
-        if (todo.isPresent()){
+        if (todo.isPresent()) {
             return todoService.getTodo(todo.get());
         }
-        if (status.isPresent()){
+        if (status.isPresent()) {
             return todoService.getStatusTodos(status.get());
         }
         return todoService.getTodos();

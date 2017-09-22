@@ -2,14 +2,11 @@ package io.finalprj.todolist.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Column;
+import javax.persistence.*;
 
 
 @Entity
+@Table(name = "TODOS")
 public class TodoItem {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -20,9 +17,12 @@ public class TodoItem {
     private String todo;
 
     @Column(name = "STATUS", nullable = false)
-
     @JsonProperty("status")
     private Boolean status;
+
+    /*@ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;*/
 
     public TodoItem() {
     }
@@ -31,6 +31,12 @@ public class TodoItem {
         this.todo = todo;
         this.status = status;
     }
+
+    /*public TodoItem(String todo, Boolean status, User user) {
+        this.todo = todo;
+        this.status = status;
+        this.user = user;
+    }*/
 
     public long getId() {
         return id;
@@ -44,7 +50,7 @@ public class TodoItem {
         return todo;
     }
 
-    public void setToDo(String todo) {
+    public void setTodo(String todo) {
         this.todo = todo;
     }
 
@@ -55,4 +61,12 @@ public class TodoItem {
     public void setStatus(Boolean status) {
         this.status = status;
     }
+
+    /*public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }*/
 }

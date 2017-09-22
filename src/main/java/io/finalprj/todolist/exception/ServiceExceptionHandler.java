@@ -1,4 +1,4 @@
-package io.finalprj.todolist.exception;
+package io.finalprj.todolist.EXCEPTION;
 
 import io.finalprj.todolist.service.TodoService;
 import org.apache.log4j.Logger;
@@ -18,18 +18,18 @@ import java.util.Map;
 @ControllerAdvice
 public class ServiceExceptionHandler extends ResponseEntityExceptionHandler {
 
-    private static final Logger log = Logger.getLogger(TodoService.class);
-    private static String code = "code";
-    private static String message = "message";
-    private static String exception = "exception";
+    private final static  Logger log = Logger.getLogger(TodoService.class);
+    private final static String CODE = "code";
+    private final static String MESSAGE = "message";
+    private final static String EXCEPTION = "exception";
 
     @ExceptionHandler(value = EmptyResultDataAccessException.class)
     protected ResponseEntity<Object> emptyResultDataAccessException(RuntimeException ex, WebRequest request) {
         log.error("No item found!");
         Map<String, String> responseBody = new HashMap<>();
-        responseBody.put(message, "No item found!");
-        responseBody.put(code, "404");
-        responseBody.put(exception, ex.getMessage());
+        responseBody.put(MESSAGE, "No item found!");
+        responseBody.put(CODE, "404");
+        responseBody.put(EXCEPTION, ex.getMessage());
         return handleExceptionInternal(ex, responseBody,
                 new HttpHeaders(), HttpStatus.NOT_FOUND, request);
     }
@@ -38,20 +38,20 @@ public class ServiceExceptionHandler extends ResponseEntityExceptionHandler {
     protected ResponseEntity<Object> dataIntegrityViolationException(RuntimeException ex, WebRequest request) {
         log.error("1 or more values are missing or the incorrect type.");
         Map<String, String> responseBody = new HashMap<>();
-        responseBody.put(message, "1 or more values are missing or are the incorrect type.");
-        responseBody.put(code, "406");
-        responseBody.put(exception, ex.getMessage());
+        responseBody.put(MESSAGE, "1 or more values are missing or are the incorrect type.");
+        responseBody.put(CODE, "406");
+        responseBody.put(EXCEPTION, ex.getMessage());
         return handleExceptionInternal(ex, responseBody,
                 new HttpHeaders(), HttpStatus.NOT_ACCEPTABLE, request);
     }
 
     @ExceptionHandler(value = Exception.class)
-    protected ResponseEntity<Object> exception(RuntimeException ex, WebRequest request) {
+    protected ResponseEntity<Object> EXCEPTION(RuntimeException ex, WebRequest request) {
         log.error("1 or more values are missing or the incorrect type.");
         Map<String, String> responseBody = new HashMap<>();
-        responseBody.put(message, "Not sure what went wrong here.");
-        responseBody.put(code, "499");
-        responseBody.put(exception, ex.getMessage());
+        responseBody.put(MESSAGE, "Not sure what went wrong here.");
+        responseBody.put(CODE, "499");
+        responseBody.put(EXCEPTION, ex.getMessage());
         return handleExceptionInternal(ex, responseBody,
                 new HttpHeaders(), HttpStatus.INTERNAL_SERVER_ERROR, request);
     }

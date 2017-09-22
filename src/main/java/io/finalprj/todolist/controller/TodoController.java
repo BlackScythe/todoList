@@ -5,8 +5,8 @@ import io.finalprj.todolist.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
-import java.util.Optional;
+import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/todos")
@@ -20,17 +20,13 @@ public class TodoController {
     }
 
     @GetMapping
-    public Iterable<TodoItem> getTodos(@RequestParam Optional<Long> id, @RequestParam Optional<Boolean> status, @RequestParam Optional<String> todo) {
-        if (id.isPresent()) {
-            return Arrays.asList(todoService.getTodo(id.get()));
-        }
-        if (todo.isPresent()) {
-            return todoService.getTodo(todo.get());
-        }
-        if (status.isPresent()) {
-            return todoService.getStatusTodos(status.get());
-        }
-        return todoService.getTodos();
+    public List<TodoItem> getTodos(@RequestParam Map<String,String> query) {
+        return todoService.getTodos(query);
+    }
+
+    @GetMapping("/{id}")
+    public TodoItem getTodo(@PathVariable Long id){
+        return todoService.getTodo(id);
     }
 
     @PostMapping
@@ -38,7 +34,7 @@ public class TodoController {
         return todoService.createTodo(todoItem);
     }
 
-    @PatchMapping
+    @PutMapping
     public TodoItem updateTodo(@RequestBody TodoItem todoItem) {
         return todoService.updateTodo(todoItem);
     }

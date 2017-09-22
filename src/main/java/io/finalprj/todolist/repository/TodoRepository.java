@@ -1,12 +1,17 @@
 package io.finalprj.todolist.repository;
 
 import io.finalprj.todolist.entity.TodoItem;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-@Transactional
-public interface TodoRepository extends CrudRepository<TodoItem, Long> {
-    public Iterable<TodoItem> findByStatus(Boolean status);
+import java.util.List;
 
-    public Iterable<TodoItem> findByTodo(String todo);
+@Repository
+public interface TodoRepository extends JpaRepository<TodoItem, Long> {
+    public List<TodoItem> findByStatus(Boolean status);
+
+    public List<TodoItem> findByTodo(String todo);
+    
+    public List<TodoItem> findByTodoAndStatus(String todo, Boolean status);
+
 }

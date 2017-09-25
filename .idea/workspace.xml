@@ -2,46 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb45a72f-4451-4cb4-9f68-12c90e65dcb3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/TodoServiceTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_193.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a355aac6af36f8c4d7f27c2e1b0a81395a272b8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/256b7dc35acb0f8e9eaf5a212698417de34d94c7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c62f73655dc421bf229d6e630e943aaea049274" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61b290487c36102325b5f137e20b6925ce40cf7d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d55759bf3db9e63aac4d53bd2d2c939ccddc6a1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98ecf30b6048d14348137515d27ba9dd041e307d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae66e9f1ee6357c2a2621798bd7adade6ab72c72" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e51ce65e874effff18788169a9984ca1d65b0283" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/util/DataBaseSeeder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/util/DataBaseSeeder.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/042c485b60cca6ac9f47b7a91b51dc0d7a2af5fa" afterPath="$PROJECT_DIR$/src/main/resources/data-h2.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/controller/TodoController.class" afterPath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/controller/TodoController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/entity/TodoItem.class" afterPath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/entity/TodoItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/exception/ServiceExceptionHandler.class" afterPath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/exception/ServiceExceptionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/repository/TodoRepository.class" afterPath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/repository/TodoRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/service/TodoService.class" afterPath="$PROJECT_DIR$/target/classes/io/finalprj/todolist/service/TodoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TodoControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TodoControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.db.lck" afterPath="$PROJECT_DIR$/todolist.db.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/TodoController.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/TodoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/TodoItem.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/TodoItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/exception/ServiceExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/exception/ServiceExceptionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/TodoRepository.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/TodoRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/TodoService.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/TodoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TodoControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/TodoControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TodoServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/TodoServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.db.log" afterPath="$PROJECT_DIR$/todolist.db.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.db.properties" afterPath="$PROJECT_DIR$/todolist.db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.db.script" afterPath="$PROJECT_DIR$/todolist.db.script" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.iml" afterPath="$PROJECT_DIR$/todolist.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/data-h2.sql" afterPath="$PROJECT_DIR$/src/main/resources/data-h2.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/data-h2.sql" afterPath="$PROJECT_DIR$/target/classes/data-h2.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,54 +29,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="74" column="38" lean-forward="false" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="280">
+              <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
               <folding>
-                <marker date="1506114732629" expanded="false" signature="647:658" ph=" { " />
-                <marker date="1506114732629" expanded="false" signature="668:674" ph=" }" />
-                <marker date="1506114732629" expanded="false" signature="706:717" ph=" { " />
-                <marker date="1506114732629" expanded="false" signature="730:736" ph=" }" />
-                <marker date="1506114732629" expanded="false" signature="765:776" ph=" { " />
-                <marker date="1506114732629" expanded="false" signature="788:794" ph=" }" />
-                <marker date="1506114732629" expanded="false" signature="832:843" ph=" { " />
-                <marker date="1506114732629" expanded="false" signature="860:866" ph=" }" />
-                <marker date="1506114732629" expanded="false" signature="907:918" ph=" { " />
-                <marker date="1506114732629" expanded="false" signature="935:941" ph=" }" />
-                <marker date="1506114732629" expanded="false" signature="996:1007" ph=" { " />
-                <marker date="1506114732629" expanded="false" signature="1034:1040" ph=" }" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <marker date="1506362158884" expanded="false" signature="733:744" ph=" { " />
+                <marker date="1506362158884" expanded="false" signature="754:760" ph=" }" />
+                <marker date="1506362158884" expanded="false" signature="792:803" ph=" { " />
+                <marker date="1506362158884" expanded="false" signature="816:822" ph=" }" />
+                <marker date="1506362158884" expanded="false" signature="851:862" ph=" { " />
+                <marker date="1506362158884" expanded="false" signature="874:880" ph=" }" />
+                <marker date="1506362158884" expanded="false" signature="918:929" ph=" { " />
+                <marker date="1506362158884" expanded="false" signature="946:952" ph=" }" />
+                <marker date="1506362158884" expanded="false" signature="994:1005" ph=" { " />
+                <marker date="1506362158884" expanded="false" signature="1022:1028" ph=" }" />
+                <marker date="1506362158884" expanded="false" signature="1084:1095" ph=" { " />
+                <marker date="1506362158884" expanded="false" signature="1122:1128" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data-h2.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data-h2.sql">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="74" column="38" lean-forward="false" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -115,12 +70,24 @@
       <file leaf-file-name="TodoItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/TodoItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="70" column="7" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="21">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1506114732785" expanded="false" signature="1235:1246" ph=" { " />
-                <marker date="1506114732785" expanded="false" signature="1258:1264" ph=" }" />
+                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,20 +96,21 @@
       <file leaf-file-name="TodoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/TodoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="315">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TodoService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/TodoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="-467">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,15 +121,19 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
-                <marker date="1506114732574" expanded="false" signature="470:481" ph=" { " />
-                <marker date="1506114732574" expanded="false" signature="512:518" ph=" }" />
-                <marker date="1506114732574" expanded="false" signature="609:620" ph=" { " />
-                <marker date="1506114732574" expanded="false" signature="658:664" ph=" }" />
-                <marker date="1506114732574" expanded="false" signature="737:747" ph=" { " />
-                <marker date="1506114732574" expanded="false" signature="778:784" ph=" }" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <marker date="1506362159031" expanded="false" signature="467:478" ph=" { " />
+                <marker date="1506362159031" expanded="false" signature="509:515" ph=" }" />
+                <marker date="1506362159031" expanded="false" signature="565:576" ph=" { " />
+                <marker date="1506362159031" expanded="false" signature="606:612" ph=" }" />
+                <marker date="1506362159031" expanded="false" signature="686:696" ph=" { " />
+                <marker date="1506362159031" expanded="false" signature="727:733" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -170,11 +142,12 @@
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="16" column="73" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
-                <marker date="1506114732833" expanded="false" signature="790:801" ph=" { " />
-                <marker date="1506114732833" expanded="false" signature="835:841" ph=" }" />
+                <element signature="imports" expanded="true" />
+                <marker date="1506362158946" expanded="false" signature="935:938" ph=" { " />
+                <marker date="1506362158946" expanded="false" signature="1021:1027" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -208,6 +181,7 @@
       <find>logger</find>
       <find>spring-dat</find>
       <find>, USER_ID</find>
+      <find>STATUS, TODO</find>
     </findStrings>
     <replaceStrings>
       <replace>TodoItem</replace>
@@ -218,6 +192,7 @@
       <replace>List</replace>
       <replace>query.get(STATUS)</replace>
       <replace>LOGGER</replace>
+      <replace>STATUS, TODO, USER_ID</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -243,14 +218,14 @@
         <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/util/DataBaseSeeder.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/TodoController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/TodoItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data-h2.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/TodoItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/TodoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -300,9 +275,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -646,18 +621,17 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2431694" sideWeight="0.45431146" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397541" sideWeight="0.4800515" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21299872" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2431694" sideWeight="0.54568857" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2431694" sideWeight="0.54568857" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18597169" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29918033" sideWeight="0.4975" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29918033" sideWeight="0.4975" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397541" sideWeight="0.4975" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397541" sideWeight="0.51994854" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -665,6 +639,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -699,10 +674,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="52" />
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -721,8 +704,8 @@
           <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1506114732785" expanded="false" signature="1235:1246" ph=" { " />
-            <marker date="1506114732785" expanded="false" signature="1258:1264" ph=" }" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,6 +716,7 @@
           <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,8 +787,8 @@
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1506114732785" expanded="false" signature="1235:1246" ph=" { " />
-            <marker date="1506114732785" expanded="false" signature="1258:1264" ph=" }" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,6 +799,7 @@
           <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -965,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,13 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
         </state>
       </provider>
     </entry>
@@ -997,14 +974,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/util/DataBaseSeeder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="64" lean-forward="true" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/util/DataBaseSeeder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/TodoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1017,42 +987,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="21">
           <caret line="74" column="38" lean-forward="false" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data-h2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="16" column="73" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/TodoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <marker date="1506114732833" expanded="false" signature="790:801" ph=" { " />
-            <marker date="1506114732833" expanded="false" signature="835:841" ph=" }" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1506114732574" expanded="false" signature="470:481" ph=" { " />
-            <marker date="1506114732574" expanded="false" signature="512:518" ph=" }" />
-            <marker date="1506114732574" expanded="false" signature="609:620" ph=" { " />
-            <marker date="1506114732574" expanded="false" signature="658:664" ph=" }" />
-            <marker date="1506114732574" expanded="false" signature="737:747" ph=" { " />
-            <marker date="1506114732574" expanded="false" signature="778:784" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/TodoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1061,59 +1032,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/TodoItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="70" column="7" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="21">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1506114732785" expanded="false" signature="1235:1246" ph=" { " />
-            <marker date="1506114732785" expanded="false" signature="1258:1264" ph=" }" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/TodoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data-h2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="280">
+          <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
           <folding>
-            <marker date="1506114732629" expanded="false" signature="647:658" ph=" { " />
-            <marker date="1506114732629" expanded="false" signature="668:674" ph=" }" />
-            <marker date="1506114732629" expanded="false" signature="706:717" ph=" { " />
-            <marker date="1506114732629" expanded="false" signature="730:736" ph=" }" />
-            <marker date="1506114732629" expanded="false" signature="765:776" ph=" { " />
-            <marker date="1506114732629" expanded="false" signature="788:794" ph=" }" />
-            <marker date="1506114732629" expanded="false" signature="832:843" ph=" { " />
-            <marker date="1506114732629" expanded="false" signature="860:866" ph=" }" />
-            <marker date="1506114732629" expanded="false" signature="907:918" ph=" { " />
-            <marker date="1506114732629" expanded="false" signature="935:941" ph=" }" />
-            <marker date="1506114732629" expanded="false" signature="996:1007" ph=" { " />
-            <marker date="1506114732629" expanded="false" signature="1034:1040" ph=" }" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <marker date="1506362158884" expanded="false" signature="733:744" ph=" { " />
+            <marker date="1506362158884" expanded="false" signature="754:760" ph=" }" />
+            <marker date="1506362158884" expanded="false" signature="792:803" ph=" { " />
+            <marker date="1506362158884" expanded="false" signature="816:822" ph=" }" />
+            <marker date="1506362158884" expanded="false" signature="851:862" ph=" { " />
+            <marker date="1506362158884" expanded="false" signature="874:880" ph=" }" />
+            <marker date="1506362158884" expanded="false" signature="918:929" ph=" { " />
+            <marker date="1506362158884" expanded="false" signature="946:952" ph=" }" />
+            <marker date="1506362158884" expanded="false" signature="994:1005" ph=" { " />
+            <marker date="1506362158884" expanded="false" signature="1022:1028" ph=" }" />
+            <marker date="1506362158884" expanded="false" signature="1084:1095" ph=" { " />
+            <marker date="1506362158884" expanded="false" signature="1122:1128" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506362158946" expanded="false" signature="935:938" ph=" { " />
+            <marker date="1506362158946" expanded="false" signature="1021:1027" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <marker date="1506362159031" expanded="false" signature="467:478" ph=" { " />
+            <marker date="1506362159031" expanded="false" signature="509:515" ph=" }" />
+            <marker date="1506362159031" expanded="false" signature="565:576" ph=" { " />
+            <marker date="1506362159031" expanded="false" signature="606:612" ph=" }" />
+            <marker date="1506362159031" expanded="false" signature="686:696" ph=" { " />
+            <marker date="1506362159031" expanded="false" signature="727:733" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/finalprj/todolist/service/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-467">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

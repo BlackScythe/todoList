@@ -1,4 +1,3 @@
-/*
 package io.finalprj.todolist.repository;
 
 import io.finalprj.todolist.entity.User;
@@ -10,4 +9,3 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 
 }
-*/

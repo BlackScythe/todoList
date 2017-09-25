@@ -20,9 +20,9 @@ public class TodoItem {
     @JsonProperty("status")
     private Boolean status;
 
-    /*@ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;*/
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "USER_ID")
+    private User user;
 
     public TodoItem() {
     }
@@ -32,11 +32,11 @@ public class TodoItem {
         this.status = status;
     }
 
-    /*public TodoItem(String todo, Boolean status, User user) {
+    public TodoItem(String todo, Boolean status, User user) {
         this.todo = todo;
         this.status = status;
         this.user = user;
-    }*/
+    }
 
     public long getId() {
         return id;
@@ -62,11 +62,7 @@ public class TodoItem {
         this.status = status;
     }
 
-    /*public User getUser() {
-        return user;
-    }
-
     public void setUser(User user) {
         this.user = user;
-    }*/
+    }
 }

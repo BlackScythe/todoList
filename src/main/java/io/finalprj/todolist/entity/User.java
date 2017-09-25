@@ -1,10 +1,12 @@
-/*
 package io.finalprj.todolist.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sun.xml.internal.bind.v2.TODO;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -18,8 +20,8 @@ public class User {
     @JsonProperty("name")
     private String name;
 
-    @OneToMany(targetEntity = TodoItem.class, mappedBy = "user", cascade = CascadeType.ALL)
-    private Set<TodoItem> todoItems = new HashSet<>();
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<TodoItem> todoItems = new ArrayList<>();
 
     public User() {
     }
@@ -44,12 +46,15 @@ public class User {
         this.name = name;
     }
 
-    public Set<TodoItem> getTodoItems() {
+    public List<TodoItem> getTodoItems() {
         return todoItems;
     }
 
-    public void setTodoItems(Set<TodoItem> todoItems) {
+    public void setTodoItems(List<TodoItem> todoItems) {
         this.todoItems = todoItems;
     }
+
+    public void addTodoItem(List<TodoItem> todoItems) {
+        this.todoItems.addAll(todoItems);
+    }
 }
-*/

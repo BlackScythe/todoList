@@ -20,12 +20,12 @@ public class TodoController {
     }
 
     @GetMapping
-    public List<TodoItem> getTodos(@RequestParam Map<String,String> query) {
+    public List<TodoItem> getTodos(@RequestParam Map<String, String> query) {
         return todoService.getTodos(query);
     }
 
     @GetMapping("/{id}")
-    public TodoItem getTodo(@PathVariable Long id){
+    public TodoItem getTodo(@PathVariable Long id) {
         return todoService.getTodo(id);
     }
 

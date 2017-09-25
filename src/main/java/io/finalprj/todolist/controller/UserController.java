@@ -1,4 +1,3 @@
-/*
 package io.finalprj.todolist.controller;
 
 import io.finalprj.todolist.entity.User;
@@ -20,13 +19,22 @@ public class UserController {
     }
 
     @GetMapping
-    public List<User> getUsers(@RequestParam Map<String,String> queryMap) {
-        return userService.getUsers(queryMap);
+    public List<User> getUsers() {
+        return userService.getUsers();
     }
 
     @GetMapping("/{id}")
-    public User getUser(@PathVariable Long id){
+    public User getUser(@PathVariable Long id) {
         return userService.getUser(id);
     }
+
+    @PostMapping
+    public User createUser(@RequestBody Map<String, Object> requestBody) {
+        return userService.createUser(requestBody);
+    }
+
+    @PostMapping("/{id}")
+    public User addUserTasks(@PathVariable Long id, @RequestBody Map<String, Object> requestBody) {
+        return userService.addUserTasks(id, requestBody);
+    }
 }
-*/

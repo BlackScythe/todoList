@@ -38,7 +38,7 @@ public class UserService {
     public User createUser(Map<String, Object> requestBody) {
         Set<String> keySet = requestBody.keySet();
         User user = new User((String) requestBody.get(NAME));
-        userRepository.save(user);
+        user = userRepository.save(user);
         for (String key : keySet) {
             if (requestBody.get(key) instanceof ArrayList) {
                 List<LinkedHashMap<String, Object>> todoListMap = (ArrayList) requestBody.get(key);
@@ -47,12 +47,11 @@ public class UserService {
                     TodoItem todoItem = new TodoItem((String) todoItemMap.get(TODO), (Boolean) todoItemMap.get(STATUS), user);
                     todoList.add(todoItem);
                 }
-                user.setTodoItems(todoList);
                 todoRepository.save(todoList);
             }
         }
         LOGGER.info("Created user with tasks: " + user.getName());
-        return user;
+        return userRepository.findOne(user.getId());
     }
 
     public User addUserTasks(Long id, Map<String, Object> requestBody) {
@@ -67,5 +66,20 @@ public class UserService {
         todoRepository.save(todoList);
         LOGGER.info("Adding tasks to user: " + user.getName());
         return user;
+    }
+
+    public TodoItem getUserTodo(Long userId, int taskId) {
+        List<TodoItem> todoItems =  todoRepository.findByUserId(userId);
+        LOGGER.info("Getting tast "+taskId+" from user: "+userId);
+        return todoItems.get(taskId);
+    }
+
+    public TodoItem deleteUserTodo(Long userId, int todoId){
+        User user = userRepository.findOne(userId);
+        TodoItem todoItem = user.getTodoItems().get(todoId-1);
+        user.getTodoItems().remove(todoId);
+        todoRepository.delete(todoItem.getId());
+        LOGGER.info("Removing todo: "+todoId+" from user: "+userId);
+        return todoItem;
     }
 }

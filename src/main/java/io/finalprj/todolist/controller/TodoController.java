@@ -39,8 +39,8 @@ public class TodoController {
         return todoService.updateTodo(todoItem);
     }
 
-    @DeleteMapping
-    public Iterable<TodoItem> deleteTodos(@RequestParam("id") Long id) {
+    @DeleteMapping("/{id}")
+    public Iterable<TodoItem> deleteTodos(@PathVariable("id") Long id) {
         return todoService.deleteTodo(id);
     }
 

@@ -1,0 +1,5 @@
+
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(Â‡¬°ÿÿÿÿÿ8Ò†ªÑë+
+Xsquid:UselessImportCheck"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8‡¿˜Ìë+
+lsquid:UselessImportCheck">Remove this unused import 'com.sun.xml.internal.bind.v2.TODO'.(Â‡¬°ÿÿÿÿÿ8Ò†ªÑë+
+Vsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX8Åä–Ìë+

@@ -20,8 +20,8 @@ public class TodoItem {
     @JsonProperty("status")
     private Boolean status;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "USER_ID")
+    @ManyToOne
+    @JoinColumn(name = "USERID")
     private User user;
 
     public TodoItem() {

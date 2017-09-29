@@ -20,7 +20,7 @@ public class User {
     @JsonProperty("name")
     private String name;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "user", fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
     private List<TodoItem> todoItems = new ArrayList<>();
 
     public User() {
@@ -48,10 +48,6 @@ public class User {
 
     public List<TodoItem> getTodoItems() {
         return todoItems;
-    }
-
-    public void setTodoItems(List<TodoItem> todoItems) {
-        this.todoItems = todoItems;
     }
 
     public void addTodoItem(List<TodoItem> todoItems) {

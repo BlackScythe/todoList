@@ -1,5 +1,6 @@
 package io.finalprj.todolist.controller;
 
+import io.finalprj.todolist.entity.TodoItem;
 import io.finalprj.todolist.entity.User;
 import io.finalprj.todolist.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,11 @@ public class UserController {
         return userService.getUser(id);
     }
 
+    @GetMapping("/{userId}/task/{taskId}")
+    public TodoItem getUserTodo(@PathVariable Long userId, @PathVariable int taskId){
+        return userService.getUserTodo(userId, taskId-1);
+    }
+
     @PostMapping
     public User createUser(@RequestBody Map<String, Object> requestBody) {
         return userService.createUser(requestBody);
@@ -37,4 +43,11 @@ public class UserController {
     public User addUserTasks(@PathVariable Long id, @RequestBody Map<String, Object> requestBody) {
         return userService.addUserTasks(id, requestBody);
     }
+
+    @DeleteMapping("/{userId}/todos/{todoId}")
+    public TodoItem deleteUserTodo(@PathVariable Long userId, @PathVariable int todoId){
+        return userService.deleteUserTodo(userId,todoId);
+    }
+
+
 }
